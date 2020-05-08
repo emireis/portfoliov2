@@ -1,0 +1,108 @@
+/* Global Elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* base styles */
+
+body {
+    background: #E6E2ED;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: 'Marcellus', serif;
+    font-size: 1.25em;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    color: #565566;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #565566;
+    font-size: 1rem;
+}
+
+/* navbar */
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 0.5rem;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* welcome section */
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 15%;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(imgs/poppies.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-height: 500px){
+    .welcome-section {
+        padding-top: 35px;
+    }
+}
+
+/* .welcome-section > h1 {
+    font-family: 'Marcellus', serif;
+    font-size: 1.25em;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    color: #565566;
+} */
+
+.welcome-section > p {
+    font-family: 'Marcellus', serif;
+    font-size: 1.1em;
+    letter-spacing: .25rem;
+    color: #565566;
+
+}
+
+@media (max-width: 340px){
+    .welcome-section > h1 {
+        font-size: 1em;
+        letter-spacing: .5rem;
+    }
+
+    .welcome-section > p {
+        font-size: .8em;
+    }
+}
+
+.projects {
+    height: 100vh;
+}
