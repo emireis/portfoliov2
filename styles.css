@@ -124,7 +124,6 @@ a {
 
 .projects {
     padding: 7rem 2rem 10em 2em;
-    height: 100vh;
 }
 
 .projects-gallery {
@@ -134,7 +133,7 @@ a {
     width: 100%;
 }
 
-/* Project Card */
+    /* Project Card */
 
 .project-card {
     border-radius: .5rem;
@@ -183,7 +182,7 @@ a {
     letter-spacing: 0.07rem;
 }
 
-/* Card Hover Overlay effect */
+    /* Card Hover Overlay effect */
 
 .overlay {
     position: absolute;
@@ -209,3 +208,64 @@ a {
     transition: 1s ease;
   }
   
+  /* skills section */
+
+  .skills {
+      background-color: white;
+      padding: 4rem 7rem 7rem 7rem
+  }
+
+  .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 4rem;
+      width: 100%;
+  }
+
+  .skills-grid > .skills-item {
+      text-align: center;
+  }
+
+  .skills-grid > .skills-item > h5 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .skills-item-1 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+  }
+
+  .skills-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.skills-item-3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.skills-item-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.skills-item-5 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+  /* contact section */
