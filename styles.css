@@ -18,6 +18,7 @@ body {
     background: #E6E2ED;
     font-family: 'Cutive Mono', monospace;
     font-size: 1em;
+    min-height: 100%;
 }
 
 h1 {
@@ -203,7 +204,8 @@ hr {
     background-image: url(imgs/poppies2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    min-height: 100%;
     background-size: cover;
 }
 
